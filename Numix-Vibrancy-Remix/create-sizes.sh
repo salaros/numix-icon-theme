@@ -2,7 +2,7 @@
 
 shopt -u dotglob
 
-for size in 256 128 96 64 32 24 22 16; do
+for size in 256 128 96 64 48 32 24 22 16; do
 	# Resize icons and copy resized icons to "size" folders
 	for file in source/*.png; do
 		icon="$(basename $file)"
